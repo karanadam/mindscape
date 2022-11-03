@@ -143,6 +143,28 @@ header{
     
     
 }
+
+.our-mission-box{
+    /* background-color: rgba(195, 108, 137,0.5); */
+    margin-top: 80px;
+    background-image: url("images/gradient-bg.svg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    width: 100%;
+    
+    
+
+}
+
+.quote-text{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.quote-auth{
+    font-size: 24px;
+}
+
     
 @media screen and (max-width: 768px) {
         .wave{
@@ -190,3 +212,5 @@ header{
             margin-top: 0;
         }
       }
+
+     
