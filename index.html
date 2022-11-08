@@ -22,6 +22,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
+    <!-- scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -69,7 +73,7 @@
     <section class="hero">
         <div class="container-fluid py-5">
             <div class="row">
-                <div class="col-lg-7 col-12 hero-left">
+                <div class="col-lg-7 col-12 hero-left" data-aos="fade-right" data-aos-duration="1000">
                     <h1 class="hero-heading">Mental Health</h1>
                     <h1>
                         <p href="#" class="typewrite" data-period="2000"
@@ -84,11 +88,12 @@
                         Hic architecto at a magnam!</p>
 
 
-                    <button class="p-3 get-started-btn">Get Started</button>
+                    <button class="p-3 get-started-btn" onclick="getStarted()">Get Started</button>
 
                 </div>
                 <div class="col-lg-5 col-12 ">
-                    <img class="mt-5 pt-5 hero-yoga" src="./images/hero-yoga.svg" alt="yogaphoto" width="85%">
+                    <img class="mt-5 pt-5 hero-yoga" data-aos="fade-left" data-aos-duration="1000"
+                        src="./images/hero-yoga.svg" alt="yogaphoto" width="85%">
                 </div>
             </div>
         </div>
@@ -102,13 +107,13 @@
         <div class="container-fluid our-mission-box p-5">
 
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="zoom-in" data-aos-duration="1000">
                     <h3>Our Mission</h3>
                     <p>Mindscape's mission and goal is to provide basic help and assistance to people </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 text-center pt-4">
+                <div class="col-4 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
                     <img src="https://www.helpguide.org/wp-content/uploads/hands-pink-background.png" alt=""
                         width="150px">
                     <h4>Educate & Empower</h4>
@@ -116,15 +121,16 @@
 
 
                 </div>
-                <div class="col-4 text-center pt-4">
+                <div class="col-4 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
                     <img src="https://www.helpguide.org/wp-content/uploads/light-orange-background.png" alt=""
                         width="150px">
                     <h4>Helping Yourself</h4>
                     <p>Uplift your mood so you can achieve optimal behaviour</p>
                 </div>
-                <div class="col-4 text-center pt-4">
-                    <img src="https://www.helpguide.org/wp-content/uploads/Nonprofit-icon-home-page-ad-replacement.png"
-                        alt="" width="150px">
+                <div class="col-4 text-center pt-4" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="
+                    https://www.helpguide.org/wp-content/uploads/Nonprofit-icon-home-page-ad-replacement.png" alt=""
+                        width="150px">
                     <h4>Assist</h4>
                     <p>Establish contact with a professional help if required</p>
                 </div>
@@ -139,28 +145,28 @@
 
     <section>
         <div class="container-fluid text-center mb-3">
-            <p class="fs-2 pt-5 mt-4 feel-text ">How do you feel today?</p>
+            <p class="fs-2 pt-5 mt-4 feel-text " data-aos="zoom-in" data-aos-duration="500">How do you feel today?</p>
 
             <div class="row emoji-box text-center mt-5 p-5">
-                <div class="col-3 ">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="500">
                     <a href="sad.html"><button class="emo-btn">
                             <img class="emoji-hover emojis" src="./images/sad.png" alt="sad">
                         </button></a>
                     <p class="btn-name">Sad</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="500">
                     <button class="emo-btn">
                         <img class="emoji-hover emojis" src="./images/anxious.png" alt="anxious">
                     </button>
                     <P class="btn-name">Anxious</P>
                 </div>
-                <div class="col-3">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="500">
                     <button class="emo-btn">
                         <img class="emoji-hover emojis" src="./images/angry.png" alt="angry">
                     </button>
                     <p class="btn-name">Angry</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3" data-aos="fade-up" data-aos-duration="500">
                     <button class="emo-btn">
                         <img class="emoji-hover emojis" src="./images/happy.png" alt="happy">
                     </button>
@@ -172,7 +178,7 @@
 
 
     <section>
-        <blockquote class="text-center mt-5 quote-box">
+        <blockquote class="text-center mt-5 quote-box" data-aos="fade-up" data-aos-duration="1000">
             <p id="quotation" class="quote-text"></p>
             <footer>
                 <p id="source" class="quote-auth"></p>
@@ -185,7 +191,7 @@
 
     <!-- need for mental health article -->
     <section>
-        <div class="container-fluid text-center mental-why">
+        <div class="container-fluid text-center mental-why" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="mental-heading">Why do we need to pay attention to mental health?</h2>
             <p class="mt-5">Put a finger down if you've ever felt the low energy of your friend when they respond to
                 your messages.
@@ -212,6 +218,7 @@
             </div>
         </div>
     </section> -->
+
 
     <footer>
         <div class="container-fluid footer-box p-5">
@@ -254,7 +261,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- JavaScript Bundle with Popper -->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

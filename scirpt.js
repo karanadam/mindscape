@@ -1,4 +1,4 @@
-"use strict";
+("use strict");
 
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
@@ -106,3 +106,8 @@ function randomQuote() {
 }
 
 randomQuote();
+
+const getStartedButton = document.querySelector(".get-started-btn");
+function getStarted() {
+  window.scrollTo(0, 1000);
+}
