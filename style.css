@@ -252,6 +252,10 @@ footer a:hover{
 
     
 @media screen and (max-width: 768px) {
+
+        .need-for-mental-health{
+            width: 100%;
+        }
         .wave{
             display: none;
             
