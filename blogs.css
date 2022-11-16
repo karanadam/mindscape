@@ -49,12 +49,66 @@ header{
 }
 
 
-.carousel-inner{
-    border-radius: 10px;
+.wave{
+    z-index: -1;
+    position: absolute;
+    opacity: 100%;
     
 }
+
+
+.carousel-inner{
+    border-radius: 10px;
+
+    
+}
+
+
+
 .card{
     box-shadow: -1px 10px 23px -4px rgba(0,0,0, 0.40);
     margin: 20px;
+    cursor: pointer;
+    
     
 }
+
+
+.card-button{
+    background: #c36c98;
+    border: 0;
+}
+.card-button:hover{
+    background: #e084b2;
+    border: 0;
+    box-shadow: -1px 10px 23px -4px rgba(0,0,0, 0.30);
+
+}
+
+
+
+
+
+
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-box{
+    background-color: #eb8dac;
+}
+
+
+
+

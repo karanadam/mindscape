@@ -9,6 +9,27 @@
     --pink: #c36c89;
     --white: #fff;
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #be748e #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #be748e;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+  }
 
 body{
     background-color: #ffffff;
@@ -145,7 +166,7 @@ header{
     /* background-color: rgba(195, 108, 137,0.5); */
     margin-top: 80px;
     background-image: url("images/quotes-bg.svg");
-    /* background-repeat: no-repeat; */
+    background-repeat: repeat;
     background-position: center;
     width: 100%;
     
