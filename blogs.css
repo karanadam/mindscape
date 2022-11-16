@@ -109,6 +109,16 @@ footer a:hover{
     background-color: #eb8dac;
 }
 
+@media screen and (max-width: 768px){
+    .carousel{
+        display: none;
+        
+    }
 
+    .card{
+        width: auto;
+    }
+
+}
 
 
