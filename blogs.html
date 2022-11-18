@@ -33,7 +33,7 @@
     <header>
         <div class="nav-bg">
             <div class="container-fluid main-shadow">
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="index.html">
                             <img src="./images/Mindscape_Brain.png" alt="logo" height="72px">
@@ -52,7 +52,7 @@
                                     <a class="nav-link" href="blogs.html">Blogs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Community</a>
+                                    <a class="nav-link" href="http://mindscape.ml/category.php?i=1">Community</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="doctor.html">Find A Doctor</a>
@@ -93,13 +93,12 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <a href="https://blog.sensa.health/blog-burnout-stages-and-how-to-identify-them/">
+                    <a href="https://blog.sensa.health/blog-grow-your-self-esteem-back-without-therapy/">
                         <div class="carousel-item active">
-                            <img src="images/burnout.jpg" class="d-block w-100" alt="..." width="" ; height="100%" ;>
+                            <img src="images/self esteem.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Stressed?</h5>
-                                <p>The feelings that come with burnout typically occur when you feel overwhelmed at work
-                                    or feel as if you can no longer keep up with your daily tasks.</p>
+                                <h5>Self-Esteem</h5>
+                                <p>Grow Your Self-Esteem Back Without Therapy</p>
                             </div>
                         </div>
                     </a>
@@ -113,16 +112,20 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://blog.sensa.health/blog-grow-your-self-esteem-back-without-therapy/">
+
+                    <a href="https://blog.sensa.health/blog-burnout-stages-and-how-to-identify-them/">
                         <div class="carousel-item">
-                            <img src="images/self esteem.png" class="d-block w-100" alt="...">
+                            <img src="images/burnout.jpg" class="d-block w-100" alt="..." width="" ; height="100%" ;>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Self-Esteem</h5>
-                                <p>Grow Your Self-Esteem Back Without Therapy</p>
+                                <h5>Stressed?</h5>
+                                <p>The feelings that come with burnout typically occur when you feel overwhelmed at work
+                                    or feel as if you can no longer keep up with your daily tasks.</p>
                             </div>
                         </div>
+                    </a>
+
+
                 </div>
-                </a>
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
@@ -268,16 +271,13 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="">
-        <div class="container-fluid footer-box pt-5 mt-5 w-100">
+    <footer>
+        <div class="container-fluid footer-box pt-5 mt-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <img src="./images/favicon.svg" alt="logo" class="mx-5" height="56px">
                 </div>
-                <div class="col-3">
-                    <h5>Related Articles</h5>
-                </div>
-                <div class="col-3">
+                <div class="col-lg-5 col-12">
                     <h5>Our Socials</h5>
                     <ul class="socials-list">
                         <li><a href=""><img src="./images/email.png" alt="email" height="36px"
@@ -287,14 +287,20 @@
                         <li><a href=""><img src="./images/twitter.png" alt="twitter" height="36px"
                                     class="socials-logo my-3 px-3">Follow Us</a></li>
                     </ul>
+
                 </div>
+                <div class="col-lg-1 p-2"><button class="inline gobackup" onclick="goTop()"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                        </svg></button></div>
+
             </div>
             <span class="mx-5">Copyright © 2022 - Mindscape.com</span>
 
         </div>
     </footer>
-
-
 
 
 

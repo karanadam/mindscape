@@ -9,6 +9,11 @@
     --pink: #c36c89;
     --white: #fff;
 }
+
+::selection {
+    color: white;
+    background: var(--pink);
+  }
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -53,6 +58,10 @@ header{
     color: var(--white);
 }
 
+/* .nav-link{
+    color: white;
+} */
+
 
 .navbar{
     /* box-shadow: 0 2px 3px -2px rgba(0,0,0, 0.2); */
@@ -60,6 +69,8 @@ header{
     margin-bottom: 1rem;
     padding-inline: 5rem;
     /* background-color: #EB8DAC; */
+    background-color: rgba(235, 141, 172, 0.7);
+    /* width: 100%; */
 }
 
 
@@ -252,6 +263,23 @@ footer a:hover{
 }
 
 
+.gobackup{
+    border: 0;
+    border-radius: 2rem;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    color: var(--pink);
+
+
+}
+
+.gobackup:hover{
+    
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
 
 
 
@@ -288,10 +316,14 @@ footer a:hover{
     
         .navbar{
             padding-inline: 0;
+            background-color: transparent ;
+            
+            
             
        }
        .nav-link{
         color: var(--white);
+        
        }
     
        .navbar-collapse{
@@ -320,6 +352,11 @@ footer a:hover{
         .emoji-box{
             padding: 0;
             margin-top: 0;
+        }
+
+
+        .intro-images{
+            display: none;
         }
       }
 

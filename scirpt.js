@@ -111,3 +111,8 @@ const getStartedButton = document.querySelector(".get-started-btn");
 function getStarted() {
   window.scrollTo(0, 1000);
 }
+
+const backToTop = document.querySelector(".gobackup");
+function goTop() {
+  window.scrollTo(0, -10000);
+}
